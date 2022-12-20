@@ -8,9 +8,11 @@ Download yolov4.weights file: https://github.com/AlexeyAB/darknet/releases/downl
 
 Download yolov4-tiny.weights file : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
 
+### Environment
+* Ubuntu 20.04 Desktop
+* python 3.8.x
 
 ### Requirements
-* python == 3.8.x
 * Tensorflow == 2.3.1
 * Numpy == 1.17.5
 * matplotplib == 3.5.1
