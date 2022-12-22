@@ -164,19 +164,6 @@ python benchmarks.py --size 416 --model yolov4 --weights ./data/yolov4.weights
 | YoloV3 FPS  |         |         |         |
 | YoloV4 FPS  |         |         |         |
 
-### Traning your own model
-```bash
-# Prepare your dataset
-# If you want to train from scratch:
-In config.py set FISRT_STAGE_EPOCHS=0 
-# Run script:
-python train.py
-
-# Transfer learning: 
-python train.py --weights ./data/yolov4.weights
-```
-The training performance is not fully reproduced yet, so I recommended to use Alex's [Darknet](https://github.com/AlexeyAB/darknet) to train your own data, then convert the .weights to tensorflow or tflite.
-
 
 ### References
 
